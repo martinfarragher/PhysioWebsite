@@ -40,7 +40,7 @@ function handleServerResponse(){ //what to do with response from server
 			xmlResponse = xmlHttp.responseXML; //store response
 			xmlDocumentElement = xmlResponse.documentElement; //root element of xml file
 			message = xmlDocumentElement.firstChild.data; //message equal to data in typing.php, want to put out on screen
-			document.getElementById("inputText").innerHTML =  '<span style="color:green">' + message + '</span>'; //make inputText equal message
+			document.getElementById("inputText").innerHTML =  '<span style="color:blue">' + message + '</span>'; //make inputText equal message
 			setTimeout('process()',1000); //not going to be flat out trying to communicate, waste of server space
 		}else{
 			alert('Something went wrong'); //happens when you don't successfully communicate
