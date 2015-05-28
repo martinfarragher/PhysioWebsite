@@ -30,7 +30,7 @@ if (isset($_POST['email'])&& isset($_POST['password'])){
 
 <form action="<?php $current_file; ?>" method="POST">
 
-<input type="text" name="email" value="Email" onfocus="if (this.value == 'Email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email';}"><br> 
-<input type ="password" name="password" value="Password" onfocus="if (this.value == 'Password') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Password';}"><br>
+<input type="text" name="email" value="Email" onfocus="if (this.value == 'Email') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Email';}"><br> <br>
+<input type ="password" name="password" value="Password" onfocus="if (this.value == 'Password') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Password';}"><br><br>
 <input type="submit" class="button button-primary" value="Log In">
 </form>

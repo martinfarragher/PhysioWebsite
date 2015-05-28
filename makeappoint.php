@@ -17,7 +17,7 @@ if (!empty($day)&&!empty($time)&&!empty($comment)){ //checks if all fields have 
 			if ($query_run = mysql_query($query)){
 				header('Location: successfulregister.php');
 			}else{
-				include ('noregister.php');
+				include ('noappointment.php');
 			}
 	
 }else{

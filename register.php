@@ -52,7 +52,7 @@
 
 <section id="primary">
 
-		<h3>Register</h3>
+		<h3>Register to make appointment</h3>
 
        
 	   <?php
@@ -145,9 +145,9 @@ Mobile:<br> <input type="text" name="mobile" maxlength="40" value="<?php if(isse
 
 <footer>
         
-	<a href="https://twitter.com/jfarragher" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+	<a href="https://twitter.com/MartinFarragher?lang=en" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
         
-	<a href="https://www.facebook.com/jp.farra.7" target="_blank"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+	<a href="https://www.facebook.com/martin.farragher.9" target="_blank"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
 	        
 	<p>&copy; 2015 www.hanlyphysiotherapy.ie</p>
       
