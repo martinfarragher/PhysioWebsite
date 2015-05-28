@@ -36,6 +36,8 @@
 		<li><a href="services.php">services</a></li>
 		<li><a href="register.php">register</a></li>
 		<li><a href="contact.php">contact</a></li> 
+		<li><a href="appointment.php">appointment</a></li> 
+
 	</ul>
       
 </nav>

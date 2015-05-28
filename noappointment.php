@@ -37,35 +37,33 @@
         
 	<ul>
           
-		<li><a href="index.php">home</a></li>
+		<li><a href="index.php"class="selected">home</a></li>
 		<li><a href="services.php">services</a></li>
-		<li><a href="register.php"class="selected">register</a></li>
+		<li><a href="register.php">register</a></li>
 		<li><a href="contact.php">contact</a></li>
+		<li><a href="appointment.php">appointment</a></li>
+
         
 	</ul>
 </nav>
     </header>
 	<div id="wrapper">
-	<section id="primary" >
+	<section>
 	
-	<?php
+<?php
 
-echo 'You have registered succesfully!';
+echo 'We could not make appointment at this time!';
 
 ?>
 
-<a href="index.php"><br>Click here to go back to home page</a>
+<a href="appointment.php"><br>Click here to go back to appointment page</a>
 
 
 
 </section>
 
-<section id="secondary">
+</div>
 
-<img src="img/thumb.jpg" alt="Physiotherapy" class="profile-photo">
-
-
-</section>
       
 
 <footer>
@@ -78,8 +76,6 @@ echo 'You have registered succesfully!';
       
 
 </footer>
-
-</div>
 
     </div>
   </body>

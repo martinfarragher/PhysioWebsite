@@ -1,6 +1,4 @@
-/*
-GENERAL
-*/
+
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -25,10 +23,6 @@ h3 {
 }
 
 
-
-/*
-HEADING
-*/
 
 header {
   float: left;
@@ -64,14 +58,6 @@ h4 {
 }
 
 
-
-
-
-
-/*
-NAVIGATION
-*/
-
 nav {
   text-align: center;
   padding: 10px 0px;
@@ -94,10 +80,6 @@ nav a {
 }
 
 
-/*
-FOOTER
-*/
-
 footer {
   font-size: 0.75em;
   text-align: center;
@@ -112,11 +94,6 @@ footer {
   margin: 0 5px;
 }
 
-
-
-/*
-PAGE: PORTFOLIO
-*/
 
 #gallery {
   margin: 0;
@@ -139,11 +116,6 @@ PAGE: PORTFOLIO
   color: #fff;
 }
 
-
-
-/*
-PAGE: ABOUT
-*/
 
 .profile-photo {
   display: block;
@@ -168,15 +140,11 @@ PAGE: ABOUT
 
 .profile-photo4{
   display: absolute;
+  right: 400px;
   max-width: 90px;
   margin: 0 auto 30px;
 }
 
-
-
-/*
-PAGE: CONTACT
-*/
 
 .contact-info {
   list-style: none;
@@ -206,28 +174,24 @@ PAGE: CONTACT
   background-image: url('../img/twitter.png');
 }
 
-/*
-COLORS
-*/
 
-/* site body */
 body {
   background-color: #FFCC33;
   color: #000000;
 }
 
-/* black header */
+
 header {
   background: #000000;
   border-color: #FFCC33;
 }
 
-/* nav background on mobile */
+
 nav {
   background: #000000;
 }
 
-/* logo text */
+
 h1, h2 {
   color: #FFCC33;
 }
@@ -236,17 +200,16 @@ h4{
 	color:#000000;
 }
 
-/* links */
+
 a {
   color: #fff;
 }
 
-/* nav link */
+
 nav a, nav a:visited {
   color: #FFFFFF;
 }
 
-/* selected nav link */
 nav a.selected, nav a:hover {
   color: #FFCC33;
 }

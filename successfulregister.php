@@ -37,10 +37,12 @@
         
 	<ul>
           
-		<li><a href="index.php">home</a></li>
+		<li><a href="index.php"class="selected">home</a></li>
 		<li><a href="services.php">services</a></li>
-		<li><a href="register.php"class="selected">register</a></li>
+		<li><a href="register.php">register</a></li>
 		<li><a href="contact.php">contact</a></li>
+		<li><a href="appointment.php">appointment</a></li>
+
         
 	</ul>
 </nav>
@@ -48,7 +50,7 @@
 	<div id="wrapper">
 	<section id="primary" >
 	
-	<?php
+<?php
 
 echo 'You have registered succesfully!';
 

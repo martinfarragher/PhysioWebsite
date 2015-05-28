@@ -5,6 +5,10 @@
 <head>
     
 	<meta charset="utf-8">
+	
+	<script type="text/javascript" src="typing.js">
+	
+	</script>
     
 	
 	<title>Hanly Physiotherapy |contact</title>
@@ -39,7 +43,8 @@
 		<li><a href="services.php">services</a></li>
 		<li><a href="register.php">register</a></li>
 		<li><a href="contact.php" class="selected">contact</a></li>
-        
+ 		<li><a href="appointment.php">appointment</a></li>
+       
 	</ul>
       
 </nav>
@@ -47,13 +52,9 @@
     
 <div id="wrapper">
 
-<h3>General Information</h3>
+<h3>Contact Details</h3>
 
 <img src="img/skeleton.jpg" alt="Physio2" class="profile-photo3">
-        
-			<p>If you wish to make an appointment please contact us. <br><br> We would appreciate you're call.  </p>
-        
-		<h3>Contact Details</h3>
 		
 		<ul class="contact-info">
           
@@ -62,13 +63,8 @@
 			<li class="twitter"><a href= "https://twitter.com/MartinFarragher" >@dhanley</a></li>
 		</ul>
 		
-		<img src="img/connaught.jpg" alt="Physiotherapy" class="profile-photo4">
-		<img src="img/galwayhurlers.jpg" alt="Physiotherapy" class="profile-photo4">
-		<img src="img/galwayfootball.jpg" alt="Physiotherapy" class="profile-photo4">
-		<img src="img/corofin.jpg" alt="Physiotherapy" class="profile-photo4">
-
 <footer>
-        
+       <br><br><br><br><br><br><br><br><br>
 	<a href="https://twitter.com/MartinFarragher?lang=en" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
         
 	<a href="https://www.facebook.com/martin.farragher.9" target="_blank"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
